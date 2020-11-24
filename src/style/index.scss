@@ -1,0 +1,24 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+$theme-colors: (
+    "info": tomato,
+    "danger": teal
+);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
+
+// .actions{
+//     opacity: 0;
+// }
+
+// tr:hover .actions{
+//     opacity: 1;
+//     cursor: pointer;
+// }
+
+.product-img{
+    width: 10rem;
+    height: 10rem;
+}
