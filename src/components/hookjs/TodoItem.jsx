@@ -16,7 +16,7 @@ const TodoItem = (props) => {
                 (completed) ? 
                 {pointerEvents:'none',backgroundColor:'red',color:"wheat" } : 
                 {display:'ture',backgroundColor:'blue',color:"wheat"}}>
-                    Delete
+                    X
         </button>
     </div> )
 }
